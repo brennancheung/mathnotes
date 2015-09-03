@@ -1,0 +1,4 @@
+development:
+    verbose: true
+    server:
+        port: 4000
