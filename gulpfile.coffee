@@ -30,11 +30,13 @@ paths =
     ]
     js: [
         "!src/materialize/**/*"
+        "!src/MathJax/**/*"
         "src/**/*.js"
         "src/**/*.coffee"
     ]
     font: "src/font/**/*"
     materialize: "src/materialize/**/*"
+    mathjax: "src/mathjax/**/*"
     static: [
         "src/**/*.jpg"
         "src/**/*.jpeg"
@@ -94,6 +96,8 @@ gulp.task 'static-assets', ->
         .pipe gulp.dest "#{outputPath}/font"
     gulp.src paths.materialize
         .pipe gulp.dest "#{outputPath}/materialize"
+    gulp.src paths.mathjax
+        .pipe gulp.dest "#{outputPath}/MathJax"
 
 
 # Compile jade templates into html and store them in the build folder.
