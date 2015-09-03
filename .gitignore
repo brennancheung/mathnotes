@@ -8,4 +8,5 @@ node_modules/
 config.yml
 .*.swp
 src/features-override.json
+src/MathJax/*
 content/*
