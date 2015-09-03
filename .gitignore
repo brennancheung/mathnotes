@@ -4,5 +4,3 @@ build/*
 node_modules/
 config.yml
 .*.swp
-src/MathJax/*
-content/*
