@@ -1,12 +1,8 @@
-rpmbuild/
 build/*
-dist/*
 ._*
 .DS_Store
-.idea
 node_modules/
 config.yml
 .*.swp
-src/features-override.json
 src/MathJax/*
 content/*
