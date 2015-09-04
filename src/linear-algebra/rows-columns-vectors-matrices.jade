@@ -1,0 +1,55 @@
+extends ../layout
+
+block contents
+    .section
+        .container
+            br
+            br
+            h1.header.center.orange-text Linear Algebra
+            h2.header.center Rows, Columns, Vectors, and Matrices
+
+    .container
+        .section
+            .row
+                .col.s12
+                    h4 Vectors
+
+                .col.s12.m4
+                    h5 Vectors
+                    p
+                        | Vectors represent multiple values that belong together.
+                        | For example, a point `bb p` in 3-dimensional space can be written.
+                    p `bb p = [[x, y, z]]`
+
+                .col.s12.m4
+                    h5 Row Vectors
+                    p Row vectors (`1 xx n`) are written horizontally.
+                    p `[ [1, 2, ..., n] ]`
+
+                .col.s12.m4
+                    h5 Column Vectors
+                    p Column vectors (`m xx 1`) are written vertically.
+                    p `[ [1], [2], [vdots], [m] ]`
+
+                .col.s12
+                    h4 Matrices
+
+                .col.s12.m4
+                    h5 Size
+                    p A matrix has `m` rows and `n` columns.  The rows are listed first (`m xx n`).
+                    p Here is an example of a 3x2 matrix.
+                    p `[[1, 2], [3, 4], [5, 6]]`
+
+                .col.s12.m4
+                    h5 Notation
+                    p By convention the row index is denoted by `i` and the column index by `j`.
+                    p A specific value is referenced as `bb A_(ij)` or `a_(ij)`.  Rows are listed before columns.
+                    p `a_(23)` would refer to the 2nd row and 3rd column.
+                    p `bb A = [ [a_(11),   a_(12), ...,    a_(1n)],
+                                [a_(21),   a_(22), ...,    a_(2n)],
+                                [vdots, vdots, ddots, vdots],
+                                [a_(m1),   a_(m2), ...,    a_(mn)] ]`
+
+
+
+
